@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "StandApp",
+    "slug": "standapp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khanshan.standapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.khanshan.standapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "hostname": "10.0.2.2"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3f1b4267-ed33-4331-ae6c-153b9b1321c2"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
